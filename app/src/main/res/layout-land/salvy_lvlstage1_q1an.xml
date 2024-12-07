@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/backgroundImage"
+        android:layout_width="1010dp"
+        android:layout_height="431dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/salvy_storybg3" />
+
+    <LinearLayout
+        android:id="@+id/heartsContainer"
+        android:layout_width="128dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="16dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/heart1"
+            android:layout_width="35dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/hart_lives" />
+
+        <ImageView
+            android:id="@+id/heart2"
+            android:layout_width="35dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/hart_lives" />
+
+        <ImageView
+            android:id="@+id/heart3"
+            android:layout_width="35dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/hart_lives" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/levelType"
+        android:layout_width="696dp"
+        android:layout_height="166dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.316"
+        app:srcCompat="@drawable/salvy_q1an" />
+
+    <LinearLayout
+        android:id="@+id/inputContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.266"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.272">
+
+        <EditText
+            android:id="@+id/nameInput"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:background="#80000000"
+            android:hint="Input"
+            android:imeOptions="actionNext"
+            android:padding="8dp"
+            android:singleLine="true"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#80FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/levelType" />
+
+        <EditText
+            android:id="@+id/ageInput"
+            android:layout_width="116dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:background="#80000000"
+            android:hint="Input"
+            android:imeOptions="actionNext"
+            android:padding="8dp"
+            android:singleLine="true"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#80FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/nameInput" />
+
+        <EditText
+            android:id="@+id/isActiveInput"
+            android:layout_width="127dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="11dp"
+            android:background="#80000000"
+            android:hint="Input"
+            android:imeOptions="actionDone"
+            android:padding="8dp"
+            android:singleLine="true"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#80FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ageInput" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/dialoguePlate"
+        android:layout_width="655dp"
+        android:layout_height="155dp"
+        android:layout_marginHorizontal="0dp"
+        android:layout_marginTop="288dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/backgroundImage"
+        app:srcCompat="@drawable/salvy_ghostdialogue" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

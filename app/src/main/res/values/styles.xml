@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="PixelDialogTheme" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="android:background">@android:color/white</item>
+        <item name="android:textColorPrimary">@android:color/black</item>
+        <item name="android:textColorSecondary">@android:color/black</item>
+        <item name="android:buttonBarPositiveButtonStyle">@style/PixelButtonStyle</item>
+        <item name="android:buttonBarNegativeButtonStyle">@style/PixelButtonStyle</item>
+    </style>
+
+    <style name="PixelButtonStyle" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

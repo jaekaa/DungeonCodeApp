@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/backgroundImage"
+        android:layout_width="1010dp"
+        android:layout_height="431dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/elaine_storybg7" />
+
+    <LinearLayout
+        android:id="@+id/heartsContainer"
+        android:layout_width="128dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="16dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/heart1"
+            android:layout_width="35dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/hart_lives" />
+
+        <ImageView
+            android:id="@+id/heart2"
+            android:layout_width="35dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/hart_lives" />
+
+        <ImageView
+            android:id="@+id/heart3"
+            android:layout_width="35dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/hart_lives" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/transparentBg"
+        android:layout_width="528dp"
+        android:layout_height="288dp"
+        android:background="@android:color/transparent"
+        android:elevation="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/backgroundImage"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/elaine_transparentbg" />
+
+    <!-- Part 1 of Input -->
+    <EditText
+        android:id="@+id/potionInput"
+        android:layout_width="59dp"
+        android:layout_height="26dp"
+        android:background="#80000000"
+        android:elevation="5dp"
+        android:hint="Input"
+        android:imeOptions="actionNext"
+        android:padding="4dp"
+        android:singleLine="true"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#80FFFFFF"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.766"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.349" />
+
+    <EditText
+        android:id="@+id/mapInput"
+        android:layout_width="38dp"
+        android:layout_height="26dp"
+        android:background="#80000000"
+        android:elevation="5dp"
+        android:hint="Input"
+        android:imeOptions="actionNext"
+        android:padding="4dp"
+        android:singleLine="true"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#80FFFFFF"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.82"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.349" />
+
+    <EditText
+        android:id="@+id/beesInput"
+        android:layout_width="38dp"
+        android:layout_height="26dp"
+        android:background="#80000000"
+        android:elevation="5dp"
+        android:hint="Input"
+        android:imeOptions="actionNext"
+        android:padding="4dp"
+        android:singleLine="true"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#80FFFFFF"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.87"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.349" />
+
+    <!-- Part 2 of Input -->
+    <EditText
+        android:id="@+id/potionInput2"
+        android:layout_width="61dp"
+        android:layout_height="26dp"
+        android:background="#80000000"
+        android:elevation="5dp"
+        android:hint="Input"
+        android:imeOptions="actionNext"
+        android:padding="4dp"
+        android:singleLine="true"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#80FFFFFF"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.619"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.414" />
+
+    <EditText
+        android:id="@+id/mapInput2"
+        android:layout_width="38dp"
+        android:layout_height="26dp"
+        android:background="#80000000"
+        android:elevation="5dp"
+        android:hint="Input"
+        android:imeOptions="actionNext"
+        android:padding="4dp"
+        android:singleLine="true"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#80FFFFFF"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.723"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.414" />
+
+    <EditText
+        android:id="@+id/beesInput2"
+        android:layout_width="38dp"
+        android:layout_height="26dp"
+        android:background="#80000000"
+        android:elevation="5dp"
+        android:hint="Input"
+        android:imeOptions="actionNext"
+        android:padding="4dp"
+        android:singleLine="true"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#80FFFFFF"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.82"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.414" />
+
+    <ImageView
+        android:id="@+id/questAnswer"
+        android:layout_width="476dp"
+        android:layout_height="379dp"
+        android:elevation="2dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/backgroundImage"
+        app:layout_constraintHorizontal_bias="0.967"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.644"
+        app:srcCompat="@drawable/elaine_q3an" />
+
+    <ImageView
+        android:id="@+id/guardImage"
+        android:layout_width="526dp"
+        android:layout_height="426dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/backgroundImage"
+        app:layout_constraintHorizontal_bias="0.286"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/elaine_guard" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

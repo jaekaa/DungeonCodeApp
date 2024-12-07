@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "385154866485",
+    "project_id": "dungeon-code",
+    "storage_bucket": "dungeon-code.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:385154866485:android:b7d7527b804514e280407c",
+        "android_client_info": {
+          "package_name": "com.example.DashBoard"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWyWoZUhuLgqDB6w64rH9ce9_Lg_Q3V4I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
