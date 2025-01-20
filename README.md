@@ -1,1 +1,1 @@
-#An Andriod Studio Game App
+# An Android Studio Game App
